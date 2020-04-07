@@ -8,22 +8,45 @@ https://git-scm.com/downloads
 
 # SCENES
 
-- [x] Você deseja criar pontos na história da produção do seu projeto.
-- [x] Você deseja verificar mudanças feitas no seu projeto.
-
-- [x] Você começa um nova funcionalidade no seu projeto, sem estragar o 
-que já foi feito.
-- [x] Você adiciona as novas funcionalidades ao seu projeto em produção.
-- [x] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto.
-
+- [x] Iniciar a linha do tempo / repositorio git
+  * `git init`
+- [x] Criar um pontos na história da produção do seu projeto.
+  * `git commit -am "meu primeiro commit"`
+- [x] Verificar mudanças feitas na história do projeto projeto.
+  * `git log`
+  * `status`
+- [x] Reevizitar os pontos feitos
+  * `git show 361b40d3c76a393ccf1064f1397d4031a7974970`
+- [x] Você começa um nova funcionalidade no seu projeto, sem estragar o que já foi feito.
+  * `git branch feature/cart ou git -b feature/cart`
+- [x] mudar para o novo branch
+  * `git checkout feature/cart`
+- [x] voltar para a branch master
+  * `git checkout master`
+- [x] olhar toda a linha do tempo
+  * `git branch`
+- [x] Adicionar as novas funcionalidades ao seu projeto em produção.
+- [x] adicionar as novas funcionalidas da branch feature/cart
+	ao projeto master (unir linhas do tempo)
+  * `git merge feature/cart`
+- [x] Deletar o branch
+  * `git branch -D feature/cart`
+- [x] Listar os branch
+  * `git branch` 
 - [x] colocar o projeto na nuvem.
-
-- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time.
-- [x] Você precisa resolver um conflito.
-- [x] Antes de enviar a resolução, precisamos atualizar o projeto local.
-
+  * `git remote add origin https://github.com/carlosjulianodasilvabezerra/aula-git.git`
+  * `git push -u origin master`
+- [x] Ver os repositorios remotos
+  * `git remote -v`
+- [x] evitar que toda vez que for fazer push pedir as credencias.
+  * `git config credential.helper store`
+- [x] Fazer um puche na nuvem atualizando o repositório local
+  * `git pull`
 - [x] Você precisa voltar um arquivo para um determinado momento da linha do.
-- [x] Você precisa recuperar algo deletado
+  * `git checkout bu23ujblk23203984bjoweroi23098432 -- package.json`
+- [x] Recuperar algo deletado
+  * `git checkout -- package.json`
+
 
 * `git init` // inicia a linha do tempo
 * `git add` // adiciona ou atualiza mudanças para irem para a linha do tempo
