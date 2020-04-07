@@ -1,7 +1,5 @@
 # GIT GITHUB
 
-![GitHub Logo](/images/git.png)
-
 Guia prático para iniciantes.
 
 # Instalação
