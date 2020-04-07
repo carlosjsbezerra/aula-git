@@ -1,5 +1,7 @@
 # GIT GITHUB
 
+![GitHub Logo](/images/git.png)
+
 Guia prático para iniciantes.
 
 # Instalação
@@ -61,18 +63,3 @@ ao projeto master (unir linhas do tempo)
 
 17. Recuperar algo deletado
 * `git checkout -- package.json`
-
-
-
-* `git init` // inicia a linha do tempo
-* `git add` // adiciona ou atualiza mudanças para irem para a linha do tempo
-* `git commit` // adiciona um ponto na linha do tempo
-* `git log` // visualiza os pontos na linha do tempo / commit
-* `git status` // informa o estado das alterações do nosso projeto
-* `git show` // apresenta determinado ponto na história
-* `git branch` // gerencia novas linhas do tempo
-* `git checkout` // manipula as linhas do tempo
-* `git merge` // unir linhas do tempo
-* `git push` // envia alterações locais para o repositôrio remoto
-* `git clone` // clonar um projeto / repositório
-* `git pull` // puxar do repositório remoto atualizando o local
