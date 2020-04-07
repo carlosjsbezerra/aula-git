@@ -4,7 +4,7 @@ Guia prático para iniciantes.
 
 # Instalação
 
-https://git-sm.com/download
+https://git-scm.com/downloads
 
 # SCENES
 
