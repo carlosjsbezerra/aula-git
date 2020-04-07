@@ -1,5 +1,6 @@
+
 <h1 align="center">
-    <img alt="git" src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg" width="400px" />
+    <img alt="git" src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg" width="600px" />
 </h1>
 
 # GIT GITHUB
