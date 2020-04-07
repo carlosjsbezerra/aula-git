@@ -1,7 +1,6 @@
 # GIT GITHUB
 
 ![GitHub Logo](/images/git.png)
-Format: ![Alt Text](url)
 
 Guia prático para iniciantes.
 
