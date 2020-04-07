@@ -1,9 +1,3 @@
-<style>
-  h1 {
-    border-radius: 50%;
-  }
-</style>
-
 <h1 align="center">
     <img alt="git" src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg" width="600px" />
 </h1>
