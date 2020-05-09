@@ -67,17 +67,17 @@ ao projeto master (unir linhas do tempo)
 * `git checkout -- package.json`
 
 ## CONTRIBUIR EM UM PROJETO REMOTE
-### 1. Clonar o repositorio remote
+#### 1. Clonar o repositorio remote
 > git clone https://github.com/carlosjulianodasilvabezerra/8-ways-looping-arrays-javascript.git
 > git remote -v
 
-### 2. Atualizando o fork
+#### 2. Atualizando o fork
 > git remote add upstream https://github.com/gabrielfroes/8-ways-looping-arrays-javascript
 > git fetch upstream
 > git merge upstream/master
 > git push
 
-### 3. Criar um novo branch
+#### 3. Criar um novo branch
 > git checkout -b feature
 > git add .
 > git commit -m "lea-me"
