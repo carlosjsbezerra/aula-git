@@ -79,7 +79,7 @@ ao projeto master (unir linhas do tempo)
 * `git push` 
 
 #### 3. Criar um novo branch
-*`git checkout -b feature`
-*`git add .`
-*`git commit -m "lea-me"`
-*`git push origin feature`
+* `git checkout -b feature`
+* `git add .`
+* `git commit -m "lea-me"`
+* `git push origin feature`
