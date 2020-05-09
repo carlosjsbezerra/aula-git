@@ -68,9 +68,9 @@ ao projeto master (unir linhas do tempo)
 
 
 <h1>CONTRIBUIR EM UM PROJETO REMOTE</h1>
-<h2>1. Clonar o repositorio remote<h2>
-<p>git clone https://github.com/carlosjulianodasilvabezerra/8-ways-looping-arrays-javascript.git <br/>
-git remote -v</p>
+### 1. Clonar o repositorio remote<h2>
+* `git clone https://github.com/carlosjulianodasilvabezerra/8-ways-looping-arrays-javascript.git`
+* `git remote -v`
 
 #### 2. Atualizando o fork
 > git remote add upstream https://github.com/gabrielfroes/8-ways-looping-arrays-javascript
