@@ -67,7 +67,7 @@ ao projeto master (unir linhas do tempo)
 * `git checkout -- package.json`
 
 
-<h1>CONTRIBUIR EM UM PROJETO REMOTE</h1>
+## CONTRIBUIR EM UM PROJETO REMOTE
 ### 1. Clonar o repositorio remote
 * `git clone https://github.com/carlosjulianodasilvabezerra/8-ways-looping-arrays-javascript.git`
 * `git remote -v`
