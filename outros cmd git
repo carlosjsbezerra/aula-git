@@ -1,0 +1,44 @@
+# Configurando o Git com nossos dados do GitHub
+  $ git config --global user.name "Nome de usuário do GitHub"
+  $ git config --global user.email "email@provedor.com"
+  
+# Configurando nossa chave de acesso ao GitHub
+  .......
+
+# Clonando o repositório
+  $ git clone git@github.com:eusouumexemplo/name.git
+
+# Criando uma branch
+  ""Toda vez que formos alterar algo em um projeto versionado com o Git, 
+  vamos criar uma branch com o nome da tarefa que estamos fazendo.
+  Para isso utilizamos o comando""
+  $ git checkout -b nome_da_tarefa
+  
+# Fazendo o commit
+  $ git add nome_dos_arquivos 
+  $ git status.
+  $ git commit -m "mensagem de commit"
+  
+# Fazendo o merge
+  ""Com o nosso commit feito a nossa nova branch temos uma versão diferente da master.
+  Podemos confirmar que estamos com diferença entre master e nossa branch rodando o 
+  seguinte comando (ainda na branch nova):"
+  $ git diff master
+  
+  ""Sabendo que, realmente, nossa branch nova está com diferenças da master, precisaremos 
+  fazer um merge para juntar os novos commits, feitos na nova branch, com a master. 
+  Para isso precisamos voltar para a master e rodar o comando git merge""
+  
+  ""Para voltar para a master, usamos o comando""
+  $ git checkout master
+  Depois
+  $ git merge nome_da_branch:
+
+# Enviando para o GitHub
+  $ git push origin master
+  or
+  $ git pull
+  
+  
+  referencias
+  "https://medium.com/trainingcenter/plano-para-estudar-git-e-github-enquanto-aprende-programa%C3%A7%C3%A3o-f5d5f986f459"
