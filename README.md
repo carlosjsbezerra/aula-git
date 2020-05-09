@@ -65,3 +65,19 @@ ao projeto master (unir linhas do tempo)
 
 ## 17. Recuperar algo deletado
 * `git checkout -- package.json`
+
+## 1. Clonar o repositorio remote
+> git clone https://github.com/carlosjulianodasilvabezerra/8-ways-looping-arrays-javascript.git
+> git remote -v
+
+# 2. Atualizando o fork
+- git remote add upstream https://github.com/gabrielfroes/8-ways-looping-arrays-javascript
+- git fetch upstream
+- git merge upstream/master
+- git push
+
+# 3. Criar um novo branch
+git checkout -b feature
+git add .
+git commit -m "lea-me"
+git push origin feature
